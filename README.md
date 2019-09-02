@@ -7,7 +7,7 @@ In order to find an appropriate strategy I used an iterative strategy to generat
 
 2) (a) Half of the next generation of models are taken at random from the current generation with probability equal to their fraction of the total wins with one troop from each castle re-assigned randomly to another castle with probability equal to fraction of troops sent to each castle.
 
-2) (b) The other half are hold overs of the top 80 from each of the previous 10 generations.
+(b) The other half are hold overs of the top 80 from each of the previous 10 generations.
 
 3) Repeat 15 times.
 
