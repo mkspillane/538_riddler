@@ -3,6 +3,7 @@ The riddler on 538 presented the following problem on August 30, 2019 (https://f
 
 In order to find an appropriate strategy I used an iterative strategy to generate progressively better plan.  I started with 1600 troop plans randomly generated where each soldier is sent with equal probability to each castle.  I then followed the following iterative process:
 1) All 1600 plans compete in a round robin and their records are recorded
+
 2 a) Half of the next generation of models are taken at random from the current generation with probability equal to their fraction of the total wins with one troop from each castle re-assigned randomly to another castle with probability equal to fraction of troops sent to each castle.
 
 2 b) The other half are hold overs of the top 80 from each of the previous 10 generations.
